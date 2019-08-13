@@ -12,12 +12,17 @@ class  Person() {
         val birthyear =_birthyear
         val deathyear =_deathyear
     }
-
 }
-
 
 class Node{
     var brothers : List<Person> = mutableListOf(Person())
     var mom : Person = Person()
     var dad : Person = Person()
+
+
+}
+
+fun AddBrother(person: Node){
+    var brothers : List<Person> = mutableListOf(Person())
+   brothers.add
 }
